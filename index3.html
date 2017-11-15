@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aviva replica page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse content">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">AVIVA</a>
+            </div>
+            <h1 class="text-center pull-right">Motor insurance quote</h1>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 hidden-xs">
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="#">
+                            <div class="numberCircle"><span>1</span></div>Your details</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="numberCircle"><span>2</span></div>Your vehicle</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="numberCircle"><span>3</span></div>Drivers/Vehicles</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="numberCircle"><span>4</span></div>Final details</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="numberCircle"><span>5</span></div>Your quote</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="numberCircle"><span>6</span></div>Buy</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-12 visible-xs">
+                <button type="button" class="btn btn-success">Your details</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 heading-second">
+                <h4 class="text-center">We share our customer reviews on our website,so you can see for yourself before you buy</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-default pull-right retrieve-button">Retrieve it here ></button><span><h6 class="pull-right  quote">Already have a quote</h6></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-9">
+                <div class="well about-row">
+                    <div class="row">
+                        <h3 class="about">About you</h3>
+                    </div>
+
+                </div>
+                <form>
+                    <div class="row">
+                        <h6 class="quote-second">What type of quote would you like ?</h6>
+                        <div class="col-md-2 form-group">
+                            <input type="radio" class="radio_item" value="" name="item" id="radio1">
+                            <label class="label_item" for="radio1"> <img src="car.jpg"> </label>
+                            <br>
+                            <h5>I would like a quote for one vehicle</h5>
+                        </div>
+                        <div class="col-md-2 form-group">
+                            <input type="radio" class="radio_item" value="" name="item" id="radio2">
+                            <label class="label_item" for="radio2"> <img src="car2.jpg"> </label>
+                            <br>
+                            <h5>I would like a quote for more than one vehicle </h5>
+                        </div>
+                    </div>
+                    <div class="well main">
+                        <div class="row border-bottom ">
+                            <h5 class="quote-second">Title</h5>
+
+                            <div class="col-md-1 title">
+                                <input type="radio" name="a" value="a" id="a" />
+                                <label for="a">Mr</label>
+
+                            </div>
+                            <div class="col-md-1 title">
+                                <input type="radio" name="a" value="b" id="b" />
+                                <label for="b">Mrs</label>
+                            </div>
+                            <div class="col-md-1 title">
+                                <input type="radio" name="a" value="c" id="c" />
+                                <label for="c">Ms</label>
+
+                            </div>
+                            <div class="col-md-1 title">
+
+                                <input type="radio" name="a" value="d" id="d" />
+                                <label for="d">Miss</label>
+
+                            </div>
+                            <div class="col-md-1 title">
+                                <input type="radio" name="a" value="e" id="e" />
+                                <label for="e">Dr.</label>
+
+                            </div>
+                        </div>
+
+                        <div class="row border-bottom">
+                            <div class="col-md-8 form-group">
+                                <h5>First Name</h5>
+                                <input type="text" class="form-control" name="first-name" placeholder=" " />
+                            </div>
+                            <div class="col-md-4">
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-info-sign pull-right"></span>
+                            </div>
+                        </div>
+                        <div class="row border-bottom">
+                            <div class="col-md-8 form-group">
+                                <h5>Last Name</h5>
+                                <input type="text" class="form-control" name="first-name" placeholder=" " />
+                            </div>
+                        </div>
+                        <div class="row border-bottom">
+                            <h5 style="padding-left: 15px">Date of birth</h5>
+                            <div class="col-md-1 form-group">
+                                <input type="text" class="form-control" name="date" placeholder="DD" />
+                            </div>
+                            <div class="col-md-1 form-group">
+                                <input type="text" class="form-control" name="date" placeholder="MM" />
+                            </div>
+                            <div class="col-md-2 form-group">
+                                <input type="text" class="form-control" name="date" placeholder="YYYY" />
+                            </div>
+                        </div>
+                        <div class="row border-bottom">
+                            <h5 style="padding-left:15px;">Marital status</h5>
+                            <div class="col-md-8 form-group dropdown">
+                                <select name="marrital status" class="form-control">
+                                    <option value="Please select">Please select..</option>
+                                    <option value="Single">Single</option>
+                                    <option value="married">Married</option>
+                                    <option value="widowed">Widowed</option>
+                                    <option value="common">Common Law</option>
+                                    <option value="divorced">Divorced</option>
+                                    <option value="civil">Civil partner</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row border-bottom">
+                            <div class="col-md-8 form-group">
+                                <h5>What is your postcode?</h5>
+                                <input type="text" class="form-control" name="postcode" placeholder=" " />
+                                <button type="button" class="btn btn-primary find-button">Find my address ></button>
+                            </div>
+                            <div class="col-md-4">
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-info-sign pull-right"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 form-group">
+                                <h5>Email address</h5>
+                                <input type="email" class="form-control" name="email" placeholder=" " />
+                            </div>
+                            <div class="col-md-4">
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-info-sign pull-right"></span>
+                            </div>
+                        </div>
+                        <div class="row border-bottom">
+                            <p style="padding-left: 15px;">We'll email you your quote details, so please make sure your address is correct. We won't share it with other companies. If you don’t have a MyAviva account, we will send you a link to activate your new account, where you can view all your quotes in one place.</p>
+                        </div>
+                        <div class="row border-bottom">
+                            <div class="col-md-8 form-group">
+                                <h5>Preferred telephone no</h5>
+                                <input type="text" class="form-control" name="phone no" placeholder=" " />
+                            </div>
+                            <div class="col-md-4">
+                                <br>
+                                <br>
+                                <span class="glyphicon glyphicon-info-sign pull-right"></span>
+                            </div>
+                        </div>
+
+                        <div class="row border-bottom">
+                            <h5 style="padding-left: 15px;">How many cars or vans are there at this address?</h5>
+                            <div class="col-md-1 title">
+                                <input type="radio" name="a" value="a" id="a" />
+                                <label for="a">1</label>
+
+                            </div>
+                            <div class="col-md-1 title">
+                                <input type="radio" name="a" value="b" id="b" />
+                                <label for="b">2</label>
+                            </div>
+                            <div class="col-md-1 title">
+                                <input type="radio" name="a" value="c" id="c" />
+                                <label for="c">3</label>
+
+                            </div>
+                            <div class="col-md-1 title">
+
+                                <input type="radio" name="a" value="d" id="d" />
+                                <label for="d">4</label>
+
+                            </div>
+                            <div class="col-md-1 title">
+                                <input type="radio" name="a" value="e" id="e" />
+                                <label for="e">5+</label>
+
+                            </div>
+                        </div>
+                        <div class="row border-bottom">
+                            <h5 style="padding-left:15px;">What is your main emplyment type?</h5>
+                            <div class="col-md-8 form-group">
+                                <select name="employment type" class="form-control">
+                                    <option value="Please select">Please select..</option>
+                                    <option value="Employed">Employed</option>
+                                    <option value="Not employed">Not emplyed</option>
+                                    <option value="Retired">Retired</option>
+                                    <option value="disabilities">Not employed due to disability</option>
+                                    <option value="household">Household duties</option>
+                                    <option value="full time">Full/Part time worker</option>
+                                    <option value="voluntary">Voluntary worker</option>
+                                    <option value="self">Self-Employed</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <button type="button" class="btn btn-primary find-button pull-right">Continue ></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3">
+                <div class="well well-ask">
+                    <div class="row border-bottom">
+                        <div class="col-md-12 col-xs-12">
+
+                            <h3>Ask Us<span class="glyphicon glyphicon-question-sign pull-left"></span></h3>
+                        </div>
+                    </div>
+                    <div class="row border-bottom">
+                        <form>
+                            <div class="col-md-12 form-group">
+                                <h4>Have a question ?</h4>
+                                <input type="text" class="form-control" name="question" placeholder="Please type it here..." \>
+                                <button type="button" class="btn btn-default retrieve-button">Ask ></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-xs-10">
+                            <button type="button" class="btn btn-link">Browse your FAQs</button>
+                        </div>
+                        <div class="col-md-2 col-xs-2">
+                            <a href="#"><span class="glyphicon glyphicon-plus-sign pull-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="well well-ask">
+                    <div class="row border-bottom">
+                        <div class="col-md-12">
+                            <h3>Call Us<span class="glyphicon glyphicon-earphone pull-left"></span></h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button type="button" class="btn btn-link number-link">0947 584 4643</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6">
+                            <h6>Monday to Friday</h6>
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <h6>8:00am - 8:00pm</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6">
+                            <h6>Saturday</h6>
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <h6>8:30am - 5:00pm</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6">
+                            <h6>Sunday</h6>
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <h6>10:00am - 4:00pm</h6>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>For our joint protection, telephone calls may be recorded and/or monitored</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="well well-ask">
+                    <div class="row border-bottom">
+                        <div class="col-md-12">
+                            <h3>Further Information<span class="glyphicon glyphicon-question-sign pull-left"></span></h3>
+                        </div>
+                    </div>
+                    <div class="row border-bottom">
+                        <div class="col-md-10">
+                            <button type="button" class="btn btn-link">Summary of cover</button>
+                        </div>
+                        <div class="col-md-2">
+                            <span class="glyphicon glyphicon-menu-right pull-right"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button type="button" class="btn btn-link">About our insurance services</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="well well-ask">
+                    <div class="row border-bottom">
+                        <h3>Why choose us..<span class="glyphicon glyphicon-question-sign pull-left"></span></h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1 col-xs-1">
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </div>
+                        <div class="col-md-10 col-xs-8">
+                            <h6>Online Documents</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1 col-xs-1">
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </div>
+                        <div class="col-md-10 col-xs-8">
+                            <h6>Uninsured driver promise</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1 col-xs-1">
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </div>
+                        <div class="col-md-10 col-xs-8">
+                            <h6>24/7 UK accident helpline</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1 col-xs-1">
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </div>
+                        <div class="col-md-10 col-xs-8">
+                            <h6>Manage your policy online</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1 col-xs-1">
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </div>
+                        <div class="col-md-10 col-xs-8">
+                            <h6>Defaqto 5 Star rated cover</h6>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="insurance.jpg" class="center-block img-square img-responsive" alt="insurance" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button type="button" class="btn btn-link pull-left"><strong>More info</strong></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="well well-ask">
+                    <div class="row border-bottom">
+                        <div class="col-md-12">
+                            <h3>We're Secure<span class="glyphicon glyphicon-lock pull-left"></span></h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="secure.jpg" class="img-responsive image-secure" alt="secure" />
+                        </div>
+                        <p>Buy with confidence. We offer the highest level of security available on the internet. Powered by Comodo.</p>
+                        <button type="button" class="btn btn-link pull-left"><strong>More info</strong></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
